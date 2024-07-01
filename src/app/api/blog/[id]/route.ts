@@ -17,7 +17,7 @@ export const GET = async (req: Request, res: NextResponse) => {
   }
 };
 
-//記事編集API
+//記事編集API途中
 export const PUT = async (req: Request, res: NextResponse) => {
   try {
     const { title, description } = await req.json();
